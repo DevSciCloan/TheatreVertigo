@@ -19,7 +19,8 @@ Below I will share some specific details with you.
 
 **Easy Login Button**
 ---------------------
->I made a button that will log the user in as the Cast Director for testing purposes. The button will only display on relevant pages.  
+>I made a button that will log the user in as the Cast Director for testing purposes. The button will only display on relevant pages and if  
+the user isn't currently logged in.  
 
 [![Login Button](https://github.com/DevSciCloan/TheatreVertigo/blob/main/images/displayButtonSpecificPages.PNG?raw=true "Code Snippet")](https://github.com/DevSciCloan/TheatreVertigo/blob/main/images/displayButtonSpecificPages.PNG)
 [![Login Button](https://github.com/DevSciCloan/TheatreVertigo/blob/main/images/LoginCastDirectorButton.gif?raw=true "GIF")](https://github.com/DevSciCloan/TheatreVertigo/blob/main/images/LoginCastDirectorButton.gif)  
@@ -31,7 +32,7 @@ Below I will share some specific details with you.
 ---------------------------------
 >While creating a new user, or editing an existing one, the user is able to upload a photo. The photo is previewed inline with the file input. Each photo is stored in the database as a byte array.  
 
->This is the Controller that will convert the uploaded file to a byte array before saving it to the database.
+>This is the method in a Controller that will convert the uploaded file to a byte array before saving it to the database.
 [![Convert image to byte array](https://github.com/DevSciCloan/TheatreVertigo/blob/main/images/convertImageToByteArray.PNG?raw=true "Code Snippet")](https://github.com/DevSciCloan/TheatreVertigo/blob/main/images/convertImageToByteArray.PNG)  
 
 >This is some JavaScript to handle displaying a preview of the image  
